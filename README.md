@@ -1,6 +1,8 @@
-# 🤖 Testes Automatizados com Robot Framework
+# 🤖 Testes Automatizados com Robot Framework ☢
 
-## EM CONSTRUÇÃO ## 
+
+## 🚧 EM CONSTRUÇÃO 🚧 ## 
+
 
 Este projeto é uma demonstração de testes automatizados utilizando o **Robot Framework** com a biblioteca **Browser**, simulando fluxos reais em um ambiente web para fins educacionais e de portfólio.
 
@@ -71,6 +73,6 @@ Demonstrar habilidades em automação de testes
 Ajudar outros QAs que desejam aprender
 
 
-### 🙋‍♂️ Autor  Akaue Lima
-LinkedIn • GitHub
-
+### 🙋‍♂️ Autor  Akauê Lima
+LinkedIn 
+https://www.linkedin.com/in/akauelima/

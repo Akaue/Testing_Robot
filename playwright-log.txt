@@ -1,58 +1,58 @@
-{"level":30,"time":"2025-06-17T13:55:50.888Z","pid":6300,"hostname":"AkaRasta","msg":"Listening on 127.0.0.1:54751"}
-(node:6300) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-06-17T20:56:49.818Z","pid":7564,"hostname":"AkaRasta","msg":"Listening on 127.0.0.1:50532"}
+(node:7564) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-06-17T13:55:51.222Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-06-17T13:55:51.455Z","pid":6300,"hostname":"AkaRasta","msg":"Adding browser to stack: chromium, version: 136.0.7103.25"}
-{"level":30,"time":"2025-06-17T13:55:51.456Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-06-17T13:55:51.456Z","pid":6300,"hostname":"AkaRasta","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-06-17T13:55:51.461Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-06-17T13:55:51.461Z","pid":6300,"hostname":"AkaRasta","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
-{"level":30,"time":"2025-06-17T13:55:51.462Z","pid":6300,"hostname":"AkaRasta","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-06-17T13:55:51.462Z","pid":6300,"hostname":"AkaRasta","msg":"Trace file: "}
-{"level":30,"time":"2025-06-17T13:55:51.502Z","pid":6300,"hostname":"AkaRasta","msg":"Changed active context"}
-{"level":30,"time":"2025-06-17T13:55:51.502Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method newContext"}
-{"level":30,"time":"2025-06-17T13:55:51.507Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-06-17T13:55:51.508Z","pid":6300,"hostname":"AkaRasta","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-06-17T13:55:51.780Z","pid":6300,"hostname":"AkaRasta","msg":"Video path: undefined"}
-{"level":30,"time":"2025-06-17T13:55:51.780Z","pid":6300,"hostname":"AkaRasta","msg":"Changed active page"}
-{"level":30,"time":"2025-06-17T13:55:59.196Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method newPage"}
-{"level":30,"time":"2025-06-17T13:55:59.201Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method click"}
-{"level":30,"time":"2025-06-17T13:55:59.202Z","pid":6300,"hostname":"AkaRasta","msg":"Strict mode is enabled, find Locator with id=menu-item-50 in page."}
-{"level":30,"time":"2025-06-17T13:55:59.947Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method click"}
-{"level":30,"time":"2025-06-17T13:55:59.974Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-06-17T13:55:59.974Z","pid":6300,"hostname":"AkaRasta","msg":"Strict mode is enabled, find Locator with input[name=\"username\"] in page."}
-{"level":30,"time":"2025-06-17T13:56:00.393Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method fillText"}
-{"level":30,"time":"2025-06-17T13:56:00.397Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-06-17T13:56:00.398Z","pid":6300,"hostname":"AkaRasta","msg":"Strict mode is enabled, find Locator with input[id=\"password\"] in page."}
-{"level":30,"time":"2025-06-17T13:56:00.412Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method fillText"}
-{"level":30,"time":"2025-06-17T13:56:00.418Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method click"}
-{"level":30,"time":"2025-06-17T13:56:00.418Z","pid":6300,"hostname":"AkaRasta","msg":"Strict mode is enabled, find Locator with input[name=\"login\"] in page."}
-{"level":30,"time":"2025-06-17T13:56:00.986Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method click"}
-{"level":30,"time":"2025-06-17T13:56:00.993Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-06-17T13:56:00.993Z","pid":6300,"hostname":"AkaRasta","msg":"Strict mode is enabled, find Locator with text=Error: in page."}
-{"level":30,"time":"2025-06-17T13:56:01.080Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-06-17T13:56:01.085Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method getText"}
-{"level":30,"time":"2025-06-17T13:56:01.085Z","pid":6300,"hostname":"AkaRasta","msg":"Strict mode is enabled, find Locator with text=Error: in page."}
-{"level":30,"time":"2025-06-17T13:56:01.109Z","pid":6300,"hostname":"AkaRasta","msg":"Retrieved text for element text=Error: containing Error:"}
-{"level":30,"time":"2025-06-17T13:56:01.109Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method getText"}
-{"level":30,"time":"2025-06-17T13:56:01.115Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-06-17T13:56:01.116Z","pid":6300,"hostname":"AkaRasta","Take screenshot with options: ":{"path":"C:\\Users\\Akaue\\Documents\\Testing_Robot\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-06-17T13:56:01.459Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-06-17T13:56:01.473Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-17T13:56:01.490Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-17T13:56:01.493Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-17T13:56:01.496Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-17T13:56:01.499Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-17T13:56:01.503Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-17T13:56:01.506Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-17T13:56:01.508Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-17T13:56:01.511Z","pid":6300,"hostname":"AkaRasta","msg":"Changed active context"}
-{"level":30,"time":"2025-06-17T13:56:01.511Z","pid":6300,"hostname":"AkaRasta","msg":"Changing current active page: page=f54c1e70-5bd5-489c-860d-44bcf7133359"}
-{"level":30,"time":"2025-06-17T13:56:01.511Z","pid":6300,"hostname":"AkaRasta","msg":"Changed active page"}
-{"level":30,"time":"2025-06-17T13:56:01.522Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-06-17T13:56:01.554Z","pid":6300,"hostname":"AkaRasta","msg":"Removed page=3f265a66-e01e-4e38-8d13-4f5cb66888ba from context=8d1df042-12cc-4ec5-9131-81e9061b5b75 page stack"}
-{"level":30,"time":"2025-06-17T13:56:01.565Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-06-17T13:56:01.575Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-17T13:56:01.575Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-06-17T13:56:01.635Z","pid":6300,"hostname":"AkaRasta","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-06-17T13:56:02.163Z","pid":6300,"hostname":"AkaRasta","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-06-17T20:56:50.105Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-06-17T20:56:51.240Z","pid":7564,"hostname":"AkaRasta","msg":"Adding browser to stack: chromium, version: 136.0.7103.25"}
+{"level":30,"time":"2025-06-17T20:56:51.241Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-06-17T20:56:51.241Z","pid":7564,"hostname":"AkaRasta","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-06-17T20:56:51.247Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-06-17T20:56:51.247Z","pid":7564,"hostname":"AkaRasta","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-06-17T20:56:51.247Z","pid":7564,"hostname":"AkaRasta","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-17T20:56:51.247Z","pid":7564,"hostname":"AkaRasta","msg":"Trace file: "}
+{"level":30,"time":"2025-06-17T20:56:51.285Z","pid":7564,"hostname":"AkaRasta","msg":"Changed active context"}
+{"level":30,"time":"2025-06-17T20:56:51.286Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method newContext"}
+{"level":30,"time":"2025-06-17T20:56:51.294Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-17T20:56:51.294Z","pid":7564,"hostname":"AkaRasta","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-17T20:56:51.506Z","pid":7564,"hostname":"AkaRasta","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-17T20:56:51.506Z","pid":7564,"hostname":"AkaRasta","msg":"Changed active page"}
+{"level":30,"time":"2025-06-17T20:56:59.024Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method newPage"}
+{"level":30,"time":"2025-06-17T20:56:59.035Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-17T20:56:59.037Z","pid":7564,"hostname":"AkaRasta","msg":"Strict mode is enabled, find Locator with id=menu-item-50 in page."}
+{"level":30,"time":"2025-06-17T20:56:59.689Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method click"}
+{"level":30,"time":"2025-06-17T20:56:59.695Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-17T20:56:59.696Z","pid":7564,"hostname":"AkaRasta","msg":"Strict mode is enabled, find Locator with input[name=\"username\"] in page."}
+{"level":30,"time":"2025-06-17T20:57:00.149Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-17T20:57:00.153Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-17T20:57:00.153Z","pid":7564,"hostname":"AkaRasta","msg":"Strict mode is enabled, find Locator with input[id=\"password\"] in page."}
+{"level":30,"time":"2025-06-17T20:57:00.163Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-17T20:57:00.167Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-17T20:57:00.167Z","pid":7564,"hostname":"AkaRasta","msg":"Strict mode is enabled, find Locator with input[name=\"login\"] in page."}
+{"level":30,"time":"2025-06-17T20:57:01.241Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method click"}
+{"level":30,"time":"2025-06-17T20:57:01.246Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-06-17T20:57:01.246Z","pid":7564,"hostname":"AkaRasta","msg":"Strict mode is enabled, find Locator with text=Hello teste77ak (not teste77ak? Sign out) in page."}
+{"level":30,"time":"2025-06-17T20:57:01.395Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-06-17T20:57:01.399Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method getText"}
+{"level":30,"time":"2025-06-17T20:57:01.399Z","pid":7564,"hostname":"AkaRasta","msg":"Strict mode is enabled, find Locator with text=Hello teste77ak (not teste77ak? Sign out) in page."}
+{"level":30,"time":"2025-06-17T20:57:01.421Z","pid":7564,"hostname":"AkaRasta","msg":"Retrieved text for element text=Hello teste77ak (not teste77ak? Sign out) containing Hello teste77ak (not teste77ak? Sign out)"}
+{"level":30,"time":"2025-06-17T20:57:01.422Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method getText"}
+{"level":30,"time":"2025-06-17T20:57:01.427Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-06-17T20:57:01.427Z","pid":7564,"hostname":"AkaRasta","Take screenshot with options: ":{"path":"C:\\Users\\Akaue\\Documents\\Testing_Robot\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-06-17T20:57:01.557Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-06-17T20:57:01.565Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-17T20:57:01.567Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-17T20:57:01.570Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-17T20:57:01.571Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-17T20:57:01.574Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-17T20:57:01.575Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-17T20:57:01.578Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-17T20:57:01.579Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-17T20:57:01.581Z","pid":7564,"hostname":"AkaRasta","msg":"Changed active context"}
+{"level":30,"time":"2025-06-17T20:57:01.582Z","pid":7564,"hostname":"AkaRasta","msg":"Changing current active page: page=9374e57b-5c6f-4dfc-b1d1-e17a6e551908"}
+{"level":30,"time":"2025-06-17T20:57:01.582Z","pid":7564,"hostname":"AkaRasta","msg":"Changed active page"}
+{"level":30,"time":"2025-06-17T20:57:01.584Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-06-17T20:57:01.599Z","pid":7564,"hostname":"AkaRasta","msg":"Removed page=bdf5d911-2d53-4fd4-853b-c7534dfc36a4 from context=0ca70dba-3caf-4076-a9bc-122bea3f5cca page stack"}
+{"level":30,"time":"2025-06-17T20:57:01.646Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-06-17T20:57:01.665Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-17T20:57:01.665Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-17T20:57:01.716Z","pid":7564,"hostname":"AkaRasta","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-06-17T20:57:02.107Z","pid":7564,"hostname":"AkaRasta","msg":"End of node method closeAllBrowsers"}

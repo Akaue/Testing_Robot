@@ -7,7 +7,7 @@ Resource    ../variables/data.robot
 
 *** Test Cases ***
 Login Com Sucesso
-    [Tags]   smopke     regressivo    login
+    [Tags]   smoke     regressivo    login
     Abrir A Página De Login 
     Preencher Usuário E Senha   ${USUARIO1}     ${SENHA2} 
     Clicar Em Login
